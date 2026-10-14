@@ -72,3 +72,9 @@ int main() {
     // ---------------------------
     return 0;
 }
+
+/* 
+ * https://github.com/rakkosandream/RumineMocha_AtCoder_library
+ * 本コード内で使用されているACLを除くライブラリは全て上記のURLにてコンテスト前に提示しています。
+ * これでもBANされたら引退します。
+*/
