@@ -41,7 +41,9 @@ struct Sieve {
     }
 };
 
+// === 区間篩 ===
 // 区間 [L, R] に含まれる素数のリストを昇順で返す
+// 計算量: $O(\sqrt{R} \log \log \sqrt{R} + (R - L) \log \log \sqrt{R})
 // 制約目安: R <= 10^14, R - L <= 10^7
 vll segmented_sieve(ll L, ll R) {
     if (L > R || R < 2) return {};
